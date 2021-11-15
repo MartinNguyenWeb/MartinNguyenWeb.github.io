@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+.Header{
+	text-transform: uppercase;
+	background-color: white;
+	height: 70px;
+}
+.Header img{
+	float:left;
+	width: 70px;
+}
+.Header ul{
+	float: left;
+	margin: 25px 20%;
+}
+.Header ul li{
+	display:inline;
+		padding:20px;
+}
+.Header ul li:hover{
+	color: cornflowerblue;
+}
+.Header input{
+	float: right;
+	padding: 5px 10px;
+	margin: 20px 10px;
+	border: none;
+	border: 1px solid black;
+	background-color:transparent;
+	border-radius: 5px;
+}
+.Header input:hover{
+	background-color:cornflowerblue;
+	color:white;
+	border: none;
+}
+.Banner{
+	background-image: url("Banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+	text-align: center;
+	padding: 20%;
+	color: white;
+}
+.Banner .bannertext h1{
+	font-size: 60px;
+}
+.Banner .bannertext h3{
+	font-size: 30px;
+	padding: 8px 0;
+}
+.Banner .bannertext input{
+	padding: 10px 10px;
+	margin: 20px 10px;
+	border: none;
+	color: white;
+	border-radius: 5px;
+}
+.Banner .bannertext .b1{
+	background-color: cornflowerblue;
+}
+.Banner .bannertext .b2{
+	background-color: black;
+}
+.Services{
+	background-color: antiquewhite;
+	padding: 30px 0;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+.Services .Option img{
+	width: 300px;
+	height: 200px;
+}
